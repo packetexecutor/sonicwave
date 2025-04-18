@@ -12,9 +12,9 @@ npx vite build --config vite.config.github.ts
 # Tạo file .nojekyll để ngăn GitHub Pages sử dụng Jekyll
 touch docs/.nojekyll
 
-# Sao chép index.html thành 404.html để xử lý các SPA route
-echo "📄 Creating 404.html for SPA routing..."
-cp docs/index.html docs/404.html
+# Sao chép file từ client/public vào thư mục docs
+echo "📄 Copying required files for SPA routing..."
+cp -r client/public/* docs/
 
 echo "✅ Build completed successfully! The site is ready in the \"docs\" folder."
 echo ""

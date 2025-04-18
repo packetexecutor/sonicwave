@@ -20,5 +20,5 @@ export default defineConfig({
     outDir: path.resolve(import.meta.dirname, "docs"),
     emptyOutDir: true,
   },
-  base: './', // Đảm bảo tất cả các đường dẫn đều là tương đối
+  base: '', // Sử dụng root path cho GitHub Pages
 });

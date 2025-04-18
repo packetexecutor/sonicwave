@@ -105,9 +105,9 @@ const DownloadSection = () => {
               </ul>
               <a
                 href="#"
-                className="bg-[#00FFFF] hover:bg-opacity-80 text-[#121212] font-bold py-3 px-6 rounded-lg transition-all duration-300 block text-center animate-[pulse_4s_cubic-bezier(0.4,0,0.6,1)_infinite] shadow-[0_0_15px_rgba(0,255,255,0.5)]"
+                className="bg-[#00FFFF] hover:bg-opacity-80 text-[#121212] font-bold py-3 px-6 rounded-lg transition-all duration-300 block text-center shadow-[0_0_15px_rgba(0,255,255,0.5)]"
               >
-                Get Premium
+                Coming Soon
               </a>
             </div>
           </div>

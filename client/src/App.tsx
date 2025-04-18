@@ -7,7 +7,7 @@ import { Toaster } from "@/components/ui/toaster";
 +4
 import Home from "@/pages/Home";
 function Router() {
-  // Sử dụng location hook tùy chỉnh cho GitHub Pages
+  
   const [location, setLocation] = useHashLocation();
   
   return (

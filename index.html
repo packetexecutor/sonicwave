@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SonicWave - Ultimate Roblox Executor</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="sticky-header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <span class="logo-text">
+                        <span class="logo-sonic">Sonic</span><span class="logo-wave">Wave</span>
+                    </span>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <nav class="desktop-nav">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#features" class="nav-link">Features</a>
+                    <a href="#download" class="nav-link">Download</a>
+                    <a href="#faq" class="nav-link">FAQ</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </nav>
+
+                <!-- Mobile Navigation Toggle -->
+                <div class="mobile-nav-toggle">
+                    <button id="menu-toggle" aria-label="Toggle menu">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Mobile Navigation Menu -->
+            <div class="mobile-nav" id="mobile-menu">
+                <nav>
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#features" class="nav-link">Features</a>
+                    <a href="#download" class="nav-link">Download</a>
+                    <a href="#faq" class="nav-link">FAQ</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-overlay"></div>
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text animate fade-in">
+                        <h1 class="hero-title">
+                            Unleash the Power of
+                            <span class="text-primary">Sonic</span><span class="text-secondary">Wave</span>
+                        </h1>
+                        <p class="hero-description">
+                            The most advanced and powerful Roblox executor designed for ultimate gaming experience and customization.
+                        </p>
+                        <div class="hero-buttons">
+                            <a href="#download" class="btn btn-primary">Download Now</a>
+                            <a href="#features" class="btn btn-outline">Explore Features</a>
+                        </div>
+                    </div>
+
+                    <div class="hero-image animate fade-in">
+                        <div class="executor-preview">
+                            <div class="executor-header">
+                                <span class="executor-title">SonicWave Executor</span>
+                                <div class="window-controls">
+                                    <span class="window-control red"></span>
+                                    <span class="window-control yellow"></span>
+                                    <span class="window-control green"></span>
+                                </div>
+                            </div>
+                            <div class="executor-body">
+                                <div class="executor-buttons">
+                                    <button class="executor-btn execute">Execute</button>
+                                    <button class="executor-btn">Clear</button>
+                                    <button class="executor-btn">Open File</button>
+                                </div>
+                                <div class="code-area">
+                                    <div class="code-line comment">-- SonicWave Script Example</div>
+                                    <div class="code-line">local <span class="code-var">player</span> = game.Players.LocalPlayer</div>
+                                    <div class="code-line">local <span class="code-var">character</span> = player.Character</div>
+                                    <div class="code-line">if character then</div>
+                                    <div class="code-line indented">character.Humanoid.WalkSpeed = 50</div>
+                                    <div class="code-line indented">character.Humanoid.JumpPower = 100</div>
+                                    <div class="code-line">end</div>
+                                    <div class="code-line comment">-- SonicWave: Execution successful</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="features-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">
+                        Powerful <span class="text-primary">Features</span>
+                    </h2>
+                    <p class="section-description">
+                        Discover why SonicWave is the preferred choice for Roblox enthusiasts looking for the ultimate execution experience.
+                    </p>
+                </div>
+
+                <div class="features-grid">
+                    <div class="feature-card animate fade-in">
+                        <div class="feature-icon">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <h3 class="feature-title">Lightning Fast Execution</h3>
+                        <p class="feature-description">Experience seamless script execution with minimal latency and maximum performance.</p>
+                    </div>
+
+                    <div class="feature-card animate fade-in">
+                        <div class="feature-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3 class="feature-title">Undetectable Technology</h3>
+                        <p class="feature-description">Our advanced bypass systems ensure your scripts run undetected for maximum security.</p>
+                    </div>
+
+                    <div class="feature-card animate fade-in">
+                        <div class="feature-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3 class="feature-title">Script Library</h3>
+                        <p class="feature-description">Access a vast collection of pre-made scripts optimized for various Roblox games.</p>
+                    </div>
+
+                    <div class="feature-card animate fade-in">
+                        <div class="feature-icon">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <h3 class="feature-title">Customizable UI</h3>
+                        <p class="feature-description">Personalize your execution experience with themes, layouts, and custom settings.</p>
+                    </div>
+
+                    <div class="feature-card animate fade-in">
+                        <div class="feature-icon">
+                            <i class="fas fa-sync-alt"></i>
+                        </div>
+                        <h3 class="feature-title">Auto-Updates</h3>
+                        <p class="feature-description">Always stay up-to-date with automatic updates that keep your executor working with the latest Roblox versions.</p>
+                    </div>
+
+                    <div class="feature-card animate fade-in">
+                        <div class="feature-icon">
+                            <i class="fas fa-headset"></i>
+                        </div>
+                        <h3 class="feature-title">24/7 Support</h3>
+                        <p class="feature-description">Our dedicated team provides round-the-clock assistance for any issues you might encounter.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Download Section -->
+        <section id="download" class="download-section">
+            <div class="download-overlay"></div>
+            <div class="container">
+                <div class="download-card animate fade-in">
+                    <div class="download-header">
+                        <h2 class="section-title">
+                            Download <span class="text-secondary">SonicWave</span> Now
+                        </h2>
+                        <p class="section-description">
+                            Get instant access to the most powerful Roblox executor and elevate your gaming experience today.
+                        </p>
+                    </div>
+
+                    <div class="pricing-cards">
+                        <div class="pricing-card free">
+                            <h3 class="pricing-title">Free Version</h3>
+                            <ul class="pricing-features">
+                                <li><i class="fas fa-check"></i> Basic script execution</li>
+                                <li><i class="fas fa-check"></i> Limited script library access</li>
+                                <li><i class="fas fa-check"></i> Standard user interface</li>
+                                <li class="disabled"><i class="fas fa-times"></i> No auto-updates</li>
+                                <li class="disabled"><i class="fas fa-times"></i> Limited execution speed</li>
+                            </ul>
+                            <a href="#" class="btn btn-primary">Download Free</a>
+                        </div>
+
+                        <div class="pricing-card premium">
+                            <div class="recommended-badge">RECOMMENDED</div>
+                            <h3 class="pricing-title">Premium Version</h3>
+                            <ul class="pricing-features">
+                                <li><i class="fas fa-check"></i> Advanced script execution</li>
+                                <li><i class="fas fa-check"></i> Full script library access</li>
+                                <li><i class="fas fa-check"></i> Customizable user interface</li>
+                                <li><i class="fas fa-check"></i> Priority auto-updates</li>
+                                <li><i class="fas fa-check"></i> Maximum execution speed</li>
+                            </ul>
+                            <a href="#" class="btn btn-secondary">Get Premium</a>
+                        </div>
+                    </div>
+
+                    <div class="download-footer">
+                        <p>Compatible with Windows 10 & 11. Requires .NET Framework 4.8 or higher.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="faq-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">
+                        Frequently Asked <span class="text-primary">Questions</span>
+                    </h2>
+                    <p class="section-description">
+                        Find answers to the most common questions about SonicWave Executor.
+                    </p>
+                </div>
+
+                <div class="faq-container animate fade-in">
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>What is SonicWave Executor?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>SonicWave is an advanced Roblox executor that allows you to run custom scripts in Roblox games. It provides a powerful, user-friendly interface for executing Lua scripts to enhance your gaming experience.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Is SonicWave safe to use?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Yes, SonicWave is designed with security in mind. Our software is regularly updated to ensure compatibility with the latest Roblox updates and includes protection features to keep your account safe. However, as with any executor, use it responsibly and at your own discretion.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>How do I install SonicWave?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Installation is simple: download the installer from our website, run it, and follow the on-screen instructions. Make sure to temporarily disable your antivirus during installation as it may flag the executor (this is a false positive common with game modification tools).</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>What's the difference between free and premium versions?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>The free version offers basic execution capabilities with limited features. The premium version includes advanced execution methods, full script library access, customization options, priority updates, and faster execution speeds, providing a more complete and powerful experience.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>How often is SonicWave updated?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>We update SonicWave regularly to maintain compatibility with Roblox updates. Premium users receive updates immediately, while free users may experience a slight delay. All updates are automatically installed when you launch the application.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <div class="contact-content">
+                    <div class="contact-info animate fade-in">
+                        <h2 class="section-title">
+                            Get in <span class="text-primary">Touch</span>
+                        </h2>
+                        <p class="section-description">
+                            Have questions or need assistance? Reach out to our team and we'll get back to you as soon as possible.
+                        </p>
+
+                        <div class="contact-methods">
+                            <div class="contact-method">
+                                <div class="contact-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h3>Email</h3>
+                                    <p>support@sonicwave.example.com</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-method">
+                                <div class="contact-icon">
+                                    <i class="fab fa-discord"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h3>Discord</h3>
+                                    <p>Join our community: discord.gg/sonicwave</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="social-links">
+                            <a href="#" class="social-link" aria-label="Twitter">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="social-link" aria-label="YouTube">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                            <a href="#" class="social-link" aria-label="Discord">
+                                <i class="fab fa-discord"></i>
+                            </a>
+                            <a href="#" class="social-link" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-container animate fade-in">
+                        <form id="contact-form" class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" placeholder="Your name" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" placeholder="Your email" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <select id="subject" required>
+                                    <option value="" disabled selected>Select a subject</option>
+                                    <option value="general">General Inquiry</option>
+                                    <option value="support">Technical Support</option>
+                                    <option value="billing">Billing Question</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" rows="4" placeholder="Your message" required></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <div class="footer-logo">
+                        <span class="logo-text">
+                            <span class="logo-sonic">Sonic</span><span class="logo-wave">Wave</span> Executor
+                        </span>
+                    </div>
+                    <p class="footer-description">The ultimate Roblox execution experience.</p>
+                </div>
+
+                <div class="footer-links">
+                    <a href="#home" class="footer-link">Home</a>
+                    <a href="#features" class="footer-link">Features</a>
+                    <a href="#download" class="footer-link">Download</a>
+                    <a href="#faq" class="footer-link">FAQ</a>
+                    <a href="#contact" class="footer-link">Contact</a>
+                </div>
+
+                <div class="footer-social">
+                    <a href="#" class="social-link" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="YouTube">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="Discord">
+                        <i class="fab fa-discord"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p class="copyright">&copy; <span id="current-year"></span> SonicWave Executor. All rights reserved.</p>
+                <p class="disclaimer">SonicWave is not affiliated with Roblox Corporation.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
